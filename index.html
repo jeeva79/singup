@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image" href="https://github.com/jeeva79/portfolio/assets/125794481/f5f54ac1-e3e1-453a-b3fc-300af363af77">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <div class="form">
+            <div class="btn">
+                <div id="buttons"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="sign()">Sign Up</button>
+            </div>
+            <div class="image">
+                <a href="https://github.com/jeeva79" class="fab fa-github fa-xl"></a>
+                <a href="https://www.linkedin.com/in/jeeva-p-637323230/" class="fab fa-linkedin fa-xl"></a>
+                <a href="https://instagram.com/jiiva.___.79?igshid=ZDdkNTZiNTM=" class="fab fa-instagram fa-xl"></a>
+            </div>
+            <form  id="login" class="boxs">
+                <input type="text" class="names" placeholder="User Id" required>
+                <input type="text" class="names" placeholder="Enter Password" required>
+                <input type="checkbox" class="checkbox"><span>Remember Password</span>
+                <button type="submit" class="submit">Log in</button>
+            </form>
+            <form  id="sign" class="boxs">
+                <input type="text" class="names" placeholder="Fullname" required>
+                <input type="email" class="names" placeholder="Email Id" required>
+                <input type="text" class="names" placeholder="New Password" required>
+                <input type="text" class="names" placeholder="Retype Password" required>
+                <input type="checkbox" class="checkbox"><span>I agree to the terms & conditions</span>
+                <button type="submit" class="submit">Sign Up</button>
+            </form>
+        </div>
+    
+    </div>
+    <script>
+        var x=document.getElementById("login");
+        var y=document.getElementById("sign");
+        var z=document.getElementById("buttons");
+
+        function sign(){
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="110px";
+        }
+
+        function login(){
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0";
+        }
+    </script>
+</body>
+</html>
