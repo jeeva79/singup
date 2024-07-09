@@ -4,6 +4,10 @@
 
 This repository contains front-end code for login and signup pages. These pages are designed to provide a user-friendly interface for authentication and registration processes.
 
+
+![Screenshot (42)](https://github.com/jeeva79/singup/assets/125794481/5efc6004-ef41-4d46-8e0b-5c44bd799578)
+
+
 ## Features
 
 - **Login Page:**
